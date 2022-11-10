@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    position: relative;
+    background: #181927;
+    width: 100%;
+    height: 100vh;
+}
+.context{
+    background: rgb(234, 234, 234);
+    position: absolute;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 444px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 33px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.context h1{
+    text-transform: uppercase;
+    font-size: 23px;
+    
+}
+.context textarea{
+    width: 432px;
+    border: none;
+    text-align: center;
+    border-radius: 17px;
+    font-size: 21px;
+    margin-top: 32px;
+    padding-top: 19px;
+    background: #dfd8d8;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+.context button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 46px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    background: grey;
+    border: none;
+    box-shadow: 10px 10px 8px #888888;
+    transition: 0.3s;
+}
+.context button:hover{
+    background: #dfd8d8;
+    box-shadow:none;
+}
+.Buttons{
+    display: flex;
+    padding-left: 58px;
+    justify-content: space-between;
+    padding-right: 58px;
+}
+.Buttons #btn1{
+    cursor: no-drop;
+}
